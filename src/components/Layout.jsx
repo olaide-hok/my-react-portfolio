@@ -7,7 +7,7 @@ function Layout({children}) {
       <div>
         <Header />
         
-        <div className="content">
+        <div className="content font-poppins">
             {children}        
         </div>
 

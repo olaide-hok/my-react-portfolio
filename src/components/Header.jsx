@@ -31,7 +31,7 @@ function Header() {
   const pathname = window.location.pathname
 
   return (
-    <div className='text-white font-poppins'>
+    <div className='text-white font-poppins fixed inset-0 z-50'>
       <div className={`flex bg-theme justify-between items-center p-2 shadow-lg ${showMenu === '' && 'md:flex-col'}`}>
 
         <div className='flex justify-between w-full items-center'>
