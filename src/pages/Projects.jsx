@@ -26,9 +26,9 @@ function Projects() {
         </div>
 
         <div className='font-semibold bg-red-500 text-center 
-          text-8xl text-white mx-20 p-20 rounded-tl-full rounded-br-full
+          text-4xl text-white mx-20 p-10 rounded-tl-full rounded-br-full
           md:mx-5 md:text-2xl'>
-          <h1 className=''>THE GAME IS ...</h1>
+          <h1 className=''>THE GOAL IS ...</h1>
           <h1 className=''>CONSISTENCY</h1>
         </div>
       </div>

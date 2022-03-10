@@ -6,8 +6,8 @@ function Contact() {
     <Layout>
       <div>
 
-        <div className="h-screen mt-10">
-        <img src="./portfolio assets/contact-mail.gif"
+        <div className="mt-10">
+        <img src="./portfolio assets/gif/contact-mail.gif"
           className='mx-auto'
           alt="contact mail" /> 
         </div>

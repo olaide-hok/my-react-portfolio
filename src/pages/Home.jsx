@@ -4,6 +4,12 @@ import {  SiJavascript, SiTailwindcss, SiGatsby, SiTypescript,
         } from 'react-icons/si'
 import { GiDaisy } from 'react-icons/gi'
 import Layout from '../components/Layout'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration:"1000"
+
+});
 
 function Home() {
 
@@ -15,9 +21,9 @@ function Home() {
 
         {/* Introductory section */}
         <div className="h-screen bg-theme">
-          <div className="grid bg-theme md:grid-cols-1 grid-cols-2 h-screen
+          <div className="grid bg-theme md:grid-cols-1 grid-cols-2 h-full
               items-center border-4 md:border-0 border-white 
-              transform rotate-12 md:rotate-0 mx-10">
+              transform rotate-12 md:rotate-0 mx-auto">
             
             <div className='h-1/2'>
               <lottie-player 
@@ -29,19 +35,28 @@ function Home() {
               ></lottie-player>
             </div>
 
-            <div className='font-bold text-white md:px-5'>
-              <h1 className='text-7xl md:text-4xl'>Hi, I am <b className='text-blue-500'>HABEEB.</b> </h1>
-              <h1 className='text-4xl md:text-xl'>A Frontend <b className='text-blue-500'>Web Developer.</b> </h1>
+            <div className='font-bold text-white sm:text-center md:px-5'>
+              <h1 className='text-7xl md:text-4xl' 
+                data-aos='slide-right'
+              >
+                Hi, I am <b className='text-blue-500'>HABEEB.</b> </h1>
+              <h1 className='text-4xl md:text-xl' 
+                data-aos='slide-left'
+              >
+                A Frontend <b className='text-blue-500'>Web Developer.</b> </h1>
             </div>
           </div>
         </div>
 
         {/* Technology stack */}
         <div className='mt-20'>
-          <h1 className="text-4xl text-blue-700 font-bold text-center my-8">
+          <h1 className="text-4xl text-blue-700 font-bold text-center my-8"
+            data-aos='slide-up'
+          >
             Technologies I use
           </h1>
-          <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-4">
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-4"
+          >
             <FaHtml5
               size={125}
               color='#ea580c'
@@ -113,7 +128,7 @@ function Home() {
 
 
           <div className='md:mx-5 mx-32 bg-gray-50 shadow-2xl -mt-20 rounded-lg hover:text-white hover:bg-gray-700'>
-            <div className='h-96'>
+            <div className='h-96' data-aos='fade-in'>
               <lottie-player 
                 src="https://assets4.lottiefiles.com/packages/lf20_6gfl0jjp.json"  
                 background="transparent"  
@@ -135,7 +150,7 @@ function Home() {
 
 
           <div className='md:mx-5 mx-32 bg-gray-50 shadow-2xl -mt-20 rounded-lg hover:text-white hover:bg-gray-700'>
-            <div className='h-96'>
+            <div className='h-96' data-aos='zoom-in'>
             <lottie-player 
               src="https://assets10.lottiefiles.com/packages/lf20_aptscmnx.json"  
               background="transparent" 
