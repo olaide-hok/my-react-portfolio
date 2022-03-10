@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import projectsData from '../resources/projects'
 
 function Projects() {
   return (
@@ -30,6 +31,27 @@ function Projects() {
           <h1 className=''>THE GAME IS ...</h1>
           <h1 className=''>CONSISTENCY</h1>
         </div>
+      </div>
+
+      <div className="grid mt-20 md:grid-cols-1 grid-cols-3 
+        items-center justify-center gap-10 mx-20 md:mx-5">
+        {projectsData.map((project, index) => {
+
+          return <div key={index}>
+            <div className='relative p-10 border-2 text-center rounded-tr-3xl 
+              rounded-bl-3xl border-gray-400'>
+              <img src={project.image} className='w-full h-52' alt="" />
+
+              <div className='absolute text-white inset-0 flex justify-center items-center
+                flex-col opacity-0  bg-black hover:opacity-80 rounded-tr-3xl 
+                rounded-bl-3xl'>
+                <h1 className='text-4xl font-semibold'>{project.title}</h1>
+                <button className='mt-5  border-2 rounded border-white px-5 py-2 hover:bg-green-500'>DEMO</button>
+              </div>
+            </div>
+          </div>
+        })}
+
       </div>
     </Layout>
   )
