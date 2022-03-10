@@ -31,15 +31,16 @@ function Header() {
   const pathname = window.location.pathname
 
   return (
-    <div className='text-white font-poppins fixed inset-0 z-50'>
+    <div className='text-white font-poppins fixed top-0 left-0 right-0 z-50'>
       <div className={`flex bg-theme justify-between items-center p-2 shadow-lg ${showMenu === '' && 'md:flex-col'}`}>
 
         <div className='flex justify-between w-full items-center'>
           <h1 className='text-4xl font-semibold'>H O K</h1>
 
           <FaBars
-            className='md:flex lg:hidden xl:hidden 2xl:hidden cursor-pointer text-2xl'
+            className='md:flex lg:hidden xl:hidden 2xl:hidden cursor-pointer'
             onClick={toggleHamburger}
+            size={30}
           />
 
         </div>
