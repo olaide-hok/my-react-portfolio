@@ -22,9 +22,9 @@ function Footer() {
           <div className="h-1 border-2 border-gray-50 border-dotted"></div>
 
           <div className="flex text-white w-full justify-between py-3">
-            <FaTwitter />
-            <FaMailBulk />
-            <FaGithub />
+            <a href="mailto:olaidekaremm43@yahoo.com" target='_blank'> <FaMailBulk />  </a>
+            <a href="https://twitter.com/olaide_hok" target='_blank'><FaTwitter /></a>
+            <a href="https://github.com/olaide-hok" target='_blank'><FaGithub /></a>
           </div>
 
           <div className="h-1 border-2 border-gray-50 border-dotted"></div>
