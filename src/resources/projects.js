@@ -20,13 +20,13 @@ const projectsData = [
         "An NBA team search application developed using react with connection to a backend Rapid Free NBA API.",
       link: "https://nba-teamplayer-search.vercel.app/",
     },
-    // {
-    //   title: "SHEYJOBS",
-    //   image: "./portfolio assets/svg/jobs.svg",
-    //   description:
-    //     "An ecommerce application developed using react , node , redux and mongodb",
-    //   link: "/",
-    // },
+    {
+      title: "GITHUB FINDER",
+      image: "./portfolio assets/svg/github-logo.svg",
+      description:
+        "A github account search application developed using React",
+      link: "https://gitaccfinder.vercel.app/",
+    },
     // {
     //   title: "SHEYGRAM",
     //   image: "./portfolio assets/svg/socialmedia.svg",
