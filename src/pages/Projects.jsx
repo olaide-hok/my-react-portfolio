@@ -46,7 +46,7 @@ function Projects() {
                 flex-col opacity-0  bg-black hover:opacity-80 rounded-tr-3xl 
                 rounded-bl-3xl'>
                 <h1 className='text-4xl font-semibold'>{project.title}</h1>
-                <button className='mt-5  border-2 rounded border-white px-5 py-2 hover:bg-green-500'>DEMO</button>
+                <button className='mt-5  border-2 rounded border-white px-5 py-2 hover:bg-green-500'> <a href={project.link} target="_blank"> DEMO </a></button>
               </div>
             </div>
           </div>

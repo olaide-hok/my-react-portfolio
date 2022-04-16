@@ -1,24 +1,24 @@
 const projectsData = [
     {
-      title: "SHEYSHOP",
-      image: ".//portfolio assets/svg/ecommerce.svg",
+      title: "MEME GENERATOR",
+      image: ".//portfolio assets/svg/Trollface.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "An meme generator application developed using react",
+      link: "https://reactmemegen.vercel.app",
     },
     {
-      title: "SHEYPIZZA",
-      image: "./portfolio assets/svg/pizzas.svg",
+      title: "ARTISTE SONGS",
+      image: "./portfolio assets/svg/music_folder_alt.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "A music search application developed using react with connection to a backend Rapid Genius Lyrics API.",
+      link: "https://artistesearch.netlify.com",
     },
     {
-      title: "SHEYROOMS",
-      image: "./portfolio assets/svg/hotels.svg",
+      title: "NBA TEAM PLAYERS",
+      image: "./portfolio assets/svg/nba-seeklogo.svg",
       description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
+        "An NBA team search application developed using react with connection to a backend Rapid Free NBA API.",
+      link: "https://nba-teamplayer-search.vercel.app/",
     },
     {
       title: "SHEYJOBS",
