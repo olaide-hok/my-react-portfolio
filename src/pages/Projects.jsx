@@ -25,7 +25,7 @@ function Projects() {
            
         </div>
 
-        <div className='font-semibold bg-red-500 text-center 
+        <div className='font-semibold bg-blue-500 text-center 
           text-4xl text-white mx-20 p-10 rounded-tl-full rounded-br-full
           md:mx-5 md:text-2xl'>
           <h1 className=''>THE GOAL IS ...</h1>

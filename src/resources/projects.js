@@ -20,27 +20,27 @@ const projectsData = [
         "An NBA team search application developed using react with connection to a backend Rapid Free NBA API.",
       link: "https://nba-teamplayer-search.vercel.app/",
     },
-    {
-      title: "SHEYJOBS",
-      image: "./portfolio assets/svg/jobs.svg",
-      description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
-    },
-    {
-      title: "SHEYGRAM",
-      image: "./portfolio assets/svg/socialmedia.svg",
-      description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
-    },
-    {
-      title: "SHEYCARS",
-      image: "./portfolio assets/svg/cars.svg",
-      description:
-        "An ecommerce application developed using react , node , redux and mongodb",
-      link: "/",
-    },
+    // {
+    //   title: "SHEYJOBS",
+    //   image: "./portfolio assets/svg/jobs.svg",
+    //   description:
+    //     "An ecommerce application developed using react , node , redux and mongodb",
+    //   link: "/",
+    // },
+    // {
+    //   title: "SHEYGRAM",
+    //   image: "./portfolio assets/svg/socialmedia.svg",
+    //   description:
+    //     "An ecommerce application developed using react , node , redux and mongodb",
+    //   link: "/",
+    // },
+    // {
+    //   title: "SHEYCARS",
+    //   image: "./portfolio assets/svg/cars.svg",
+    //   description:
+    //     "An ecommerce application developed using react , node , redux and mongodb",
+    //   link: "/",
+    // },
   ];
   
   export default projectsData;

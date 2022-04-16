@@ -122,7 +122,7 @@ function Home() {
 
         {/* Javascript */}
         <div className='my-20'>
-          <div className='text-center h-52 bg-primary'>
+          <div className='text-center h-52 bg-blue-500'>
             <h1 className='font-bold text-white text-4xl md:text-xl py-10'>Currently on a journey to becoming a fullstack developer.</h1>
           </div>
 
@@ -144,7 +144,7 @@ function Home() {
 
         {/* Stack Section */}
         <div className='my-20'>
-          <div className='text-center h-52 bg-orange-600'>
+          <div className='text-center h-52 bg-blue-500'>
             <h1 className='font-bold text-white text-4xl md:text-xl py-10'>My Dev Stacks</h1>
           </div>
 
