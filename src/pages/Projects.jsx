@@ -21,17 +21,18 @@ function Projects() {
             Great ideas are not adopted automatically. They are birth from practice with courageous patience.  
           </p>
 
-          <h1 className="text-4xl text-center font-bold mt-5">Because</h1>
+          
            
         </div>
 
         <div className='font-semibold bg-blue-500 text-center 
           text-4xl text-white mx-20 p-10 rounded-tl-full rounded-br-full
           md:mx-5 md:text-2xl'>
-          <h1 className=''>THE GOAL IS ...</h1>
-          <h1 className=''>CONSISTENCY</h1>
+          <h1 className=''>Projects are proofs of the use of knowledge.</h1>
         </div>
       </div>
+
+      <h1 className="text-2xl text-center font-bold mt-5">Here are some of the projects I've worked on in the past.</h1>
 
       <div className="grid mt-20 md:grid-cols-1 grid-cols-3 
         items-center justify-center gap-10 mx-20 md:mx-5">
@@ -47,6 +48,7 @@ function Projects() {
                 rounded-bl-3xl'>
                 <h1 className='text-4xl font-semibold'>{project.title}</h1>
                 <button className='mt-5  border-2 rounded border-white px-5 py-2 hover:bg-green-500'> <a href={project.link} target="_blank"> DEMO </a></button>
+                <p className=''>{project.description}</p>
               </div>
             </div>
           </div>
