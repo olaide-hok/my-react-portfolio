@@ -27,13 +27,13 @@ const projectsData = [
         "A github account search application developed using React, Tailwind and Daisy UI. It allows users to search for any Github profile.",
       link: "https://gitaccfinder.vercel.app/",
     },
-    // {
-    //   title: "SHEYGRAM",
-    //   image: "./portfolio assets/svg/socialmedia.svg",
-    //   description:
-    //     "An ecommerce application developed using react , node , redux and mongodb",
-    //   link: "/",
-    // },
+    {
+      title: "LEKKI PROPERTY",
+      image: "./portfolio assets/svg/house.svg",
+      description:
+        "An online platform where realtors can showcase real estate properties that are available for sale. This application was developed using React and React Bootstrap.",
+      link: "https://lekkipropertyproj.netlify.app",
+    },
     // {
     //   title: "SHEYCARS",
     //   image: "./portfolio assets/svg/cars.svg",
