@@ -14,26 +14,29 @@ function Contact() {
 
         <div className="w-screen flex justify-center">
 
-          <div className="md:w-full w-1/2 p-10 shadow-2xl bg-gray-50">
+          <form 
+            action="https://formspree.io/f/mlezoybe"
+            method="POST"
+            className="md:w-full w-1/2 p-10 shadow-2xl bg-gray-50">
             
             <h1 className="text-2xl font-semibold">
               Contact me to know more
             </h1>
-            <input type="text" className="w-full border-2 border-gray-400 rounded
+            <input type="text" name='name' className="w-full border-2 border-gray-400 rounded
               mt-5 p-1 shadow-lg"
               placeholder='Name'
             />
-            <input type="email" className="w-full border-2 border-gray-400 rounded
+            <input type="email" name='email' className="w-full border-2 border-gray-400 rounded
               mt-5 p-1 shadow-lg"
               placeholder='Email'
             />
-            <textarea type="text" className="w-full border-2 border-gray-400 rounded
+            <textarea type="text" name='message' className="w-full border-2 border-gray-400 rounded
               mt-5 p-1 shadow-lg"
               placeholder='Enter message here'
             />
 
-            <button className="bg-red-500 text-white px-5 py-1 mt-5"> Submit</button>
-          </div>
+            <button type='submit' className="bg-red-500 text-white px-5 py-1 mt-5"> Submit</button>
+          </form>
         </div>
       </div>
     </Layout>
