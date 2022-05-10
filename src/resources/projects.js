@@ -34,13 +34,13 @@ const projectsData = [
         "An online platform where realtors can showcase real estate properties that are available for sale. This application was developed using React and React Bootstrap.",
       link: "https://lekkipropertyproj.netlify.app",
     },
-    // {
-    //   title: "SHEYCARS",
-    //   image: "./portfolio assets/svg/cars.svg",
-    //   description:
-    //     "An ecommerce application developed using react , node , redux and mongodb",
-    //   link: "/",
-    // },
+    {
+      title: "HOME FURNITURES",
+      image: "./portfolio assets/svg/Sofa.svg",
+      description:
+        "An ecommerce application developed using React connected to Stripe API.",
+      link: "https://ecomm-project-react.netlify.app/",
+    },
   ];
   
   export default projectsData;

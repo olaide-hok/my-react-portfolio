@@ -3,6 +3,7 @@ import {  SiJavascript, SiTailwindcss, SiGatsby, SiTypescript,
           SiFirebase, SiReactrouter
         } from 'react-icons/si'
 import { GiDaisy } from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 import Layout from '../components/Layout'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -13,11 +14,10 @@ AOS.init({
 
 function Home() {
 
-  const age = "\\[\\frac{5}{2} \\sum_n ^\\infty \\frac{1}{2^n} +e^{25i\\pi} + \\int_{2}^{5}2xdx \\]" 
-
   return (
     <Layout>
       <div>
+        
 
         {/* Introductory section */}
         <div className="h-screen bg-theme">
@@ -138,7 +138,7 @@ function Home() {
               ></lottie-player>
             </div>
 
-            <p className='text-2xl md:text-xl md:text-center my-5 font-semibold md:px-5 px-14 py-10'>Javascript is extensively used in web development.</p>
+            <p className='text-2xl md:text-xl text-center md:text-center my-5 font-semibold md:px-5 px-14 py-10'>Javascript is extensively used in web development.</p>
           </div>
         </div>
 
@@ -222,8 +222,15 @@ function Home() {
                   }, null, 2)}
                 </pre>
               </h1>
+              <Link to='/projects'>
+              <button className='font-poppins font-semibold rounded-md p-2 hover:bg-slate-400 hover:text-white'>
+                View my projects
+                </button>
+                </Link>
             </div>
           </div>
+
+
 
         </div>
 
