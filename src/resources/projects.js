@@ -28,11 +28,11 @@ const projectsData = [
       link: "https://gitaccfinder.vercel.app/",
     },
     {
-      title: "LEKKI PROPERTY",
-      image: "./portfolio assets/svg/house.svg",
+      title: "ZENITH TRIVIAS",
+      image: "./portfolio assets/svg/zenithtrivias.png",
       description:
-        "An online platform where realtors can showcase real estate properties that are available for sale. This application was developed using React and React Bootstrap.",
-      link: "https://lekkipropertyproj.netlify.app",
+        "An online platform where users can select the amount of questions to answer from different categories with varying difficulty levels.",
+      link: "https://trivial-quiz-app.vercel.app/",
     },
     {
       title: "HOME FURNITURES",
