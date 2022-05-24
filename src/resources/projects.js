@@ -1,10 +1,10 @@
 const projectsData = [
     {
-      title: "MEME GENERATOR",
+      title: "WOKE MEME GENERATOR",
       image: ".//portfolio assets/svg/Trollface.svg",
       description:
         "An meme generator application developed with React. Allows users to add preferred text to the meme image.",
-      link: "https://reactmemegen.vercel.app",
+      link: "https://wokememegen.vercel.app",
     },
     {
       title: "ARTISTE SONGS",
@@ -32,14 +32,14 @@ const projectsData = [
       image: "./portfolio assets/svg/zenithtrivias.png",
       description:
         "An online platform where users can select the amount of questions to answer from different categories with varying difficulty levels.",
-      link: "https://trivial-quiz-app.vercel.app/",
+      link: "https://zenithtrivias.vercel.app/",
     },
     {
-      title: "HOME FURNITURES",
+      title: "COMFY SLOTH",
       image: "./portfolio assets/svg/Sofa.svg",
       description:
         "An ecommerce application developed using React connected to Stripe API.",
-      link: "https://ecomm-project-react.netlify.app/",
+      link: "https://comfyslothinc.netlify.app/",
     },
   ];
   
